@@ -40,15 +40,9 @@ body {
     padding-left: 25px;
 }
 
-.social {
-    background-color: #21123d;
-    display: flex;
-    height: 90px;
-}
-
 .linha-vertical {
     margin-top: 10px;
-    height: 438px;
+    height: 430px;
     border-left: 7px solid #fff;
     border-radius: 5px;
     margin-right: 13px;
@@ -64,9 +58,7 @@ img.eu {
 }
 
 img.logos {
-    margin: auto;
-    margin-right: 26px;
-    margin-bottom: 30px;
+    margin: 0px 17px;
 }
 
 span {
