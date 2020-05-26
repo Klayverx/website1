@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.card {
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    background-color: #21123d;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 80px 15px rgb(41, 56, 105);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(68, 143, 80) , rgb(27, 76, 129));
+
+    /* background: rgb(79, 116, 156); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.conteudo {
+    background-color: #21123d;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    padding-top: 19px;
+    padding-left: 25px;
+}
+
+.social {
+    background-color: #21123d;
+    display: flex;
+    height: 90px;
+}
+
+.linha-vertical {
+    margin-top: 10px;
+    height: 438px;
+    border-left: 7px solid #fff;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+
+img.eu {
+    border-radius: 5px 5px 5px 5px;
+    width: 350px;
+    border: 5px solid rgb(20, 20, 20);
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: ;
+}
+
+img.logos {
+    margin: auto;
+    margin-right: 26px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+}
+
+.amarelo {
+    color: #eef78a;
+}
+
+.azul {
+    color: #66cfdf;
+}
+
+.branco {
+    color: #eaeae5;
+}
+
+.verde {
+    color: #4ff87a;
+}
+
+.rosa {
+    color: #eb71b8;
+}
+
+.roxo {
+    color: #a482df;   
+}
