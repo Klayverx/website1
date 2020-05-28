@@ -3,22 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-}
-
-.card {
-    border-radius: 10px 10px 10px 10px;
-    display: flex;
-    background-color: #21123d;
-    border: 5px solid rgb(255, 255, 255);
-    box-shadow: 5px 5px 80px 15px rgb(41, 56, 105);
-}
-
-.container {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to bottom, rgb(68, 143, 80) , rgb(27, 76, 129));
@@ -26,6 +13,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    background-color: #21123d;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 80px 15px rgb(41, 56, 105);
+    display: flex;
 }
 
 .conteudo {
@@ -39,7 +34,7 @@ body {
 .linha-vertical {
     margin: 10px 0px;
     height: auto;
-    border-left: 7px solid #fff;
+    border-left: 6px solid #fff;
     border-radius: 5px;
 }
 
@@ -61,6 +56,23 @@ img.logos {
 span {
     font-family: 'Fira Code', monospace;
     font-size: 14px;
+}
+
+@media (max-width: 830px) {
+    body {
+        height: 1200px;
+        background-repeat: no-repeat;
+    }
+
+    .card {
+        display: inline-block;
+    }
+
+    .conteudo {
+        letter-spacing: 0;
+        word-spacing: 0px;
+        line-height: 17px;
+    }
 }
 
 .amarelo {
