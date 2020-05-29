@@ -67,25 +67,41 @@ span {
     .card {
         display: inline-block;
         position: relative;
-        padding: auto;
         height: auto;
+        width: auto;
     }
 
     .conteudo {
         position: relative;
         letter-spacing: 0;
         word-spacing: 0px;
-        top: 470px;
+        top: 480px;
         padding-right: 15px;
+        white-space: nowrap;
     }
 
     .imagens {
         position: relative;
-        top: -435px;
+        top: -450px;
+        margin-bottom: 30px;
     }
 
-    .eu {
+    img.eu {
+        position: relative;
+        max-width: 359px;
+        width: 95vw;
+        justify-content: center;
+    }
+
+    .linha-vertical {
+        position: relative;
+        background-color: #fff;
+        top: 18px;
+        margin: 10px;
         width: auto;
+        height: 5px;
+        border-left: 6px solid #fff;
+        border-radius: 5px;
     }
 }
 
