@@ -60,18 +60,32 @@ span {
 
 @media (max-width: 830px) {
     body {
-        height: 1200px;
+        height: 1000px;
         background-repeat: no-repeat;
     }
 
     .card {
         display: inline-block;
+        position: relative;
+        padding: auto;
+        height: auto;
     }
 
     .conteudo {
+        position: relative;
         letter-spacing: 0;
         word-spacing: 0px;
-        line-height: 17px;
+        top: 470px;
+        padding-right: 15px;
+    }
+
+    .imagens {
+        position: relative;
+        top: -435px;
+    }
+
+    .eu {
+        width: auto;
     }
 }
 
