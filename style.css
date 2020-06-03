@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     align-items: center;
 }
 
-.card {
+.container {
     background-color: #21123d;
     border: 5px solid rgb(255, 255, 255);
     border-radius: 10px 10px 10px 10px;
@@ -38,71 +39,34 @@ body {
     border-radius: 5px;
 }
 
-img.eu {
+.container .imagens {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.my {
     border-radius: 3px;
-    width: 350px;
+    width: 359px;
     border: 1px solid rgb(175, 175, 175);
-    margin: 10px 15px 15px 15px;
+    margin: 10px 15px 0 15px;
 }
 
-div.social {
+.container .imagens .social {
+    display: flex;
+    justify-content: center;
     margin: auto 15px;
 }
 
-img.logos {
-    margin: auto 15px;
+li {
+    list-style: none;
+    display: flex;
+    margin: auto;
 }
 
 span {
     font-family: 'Fira Code', monospace;
     font-size: 14px;
-}
-
-@media (max-width: 830px) {
-    body {
-        height: 1000px;
-        background-repeat: no-repeat;
-    }
-
-    .card {
-        display: inline-block;
-        position: relative;
-        height: auto;
-        width: auto;
-    }
-
-    .conteudo {
-        position: relative;
-        letter-spacing: 0;
-        word-spacing: 0px;
-        top: 480px;
-        padding-right: 15px;
-        white-space: nowrap;
-    }
-
-    .imagens {
-        position: relative;
-        top: -450px;
-        margin-bottom: 30px;
-    }
-
-    img.eu {
-        position: relative;
-        max-width: 359px;
-        width: 95vw;
-        justify-content: center;
-    }
-
-    .linha-vertical {
-        position: relative;
-        background-color: #fff;
-        top: 18px;
-        margin: 10px;
-        width: auto;
-        height: 5px;
-        border-left: 6px solid #fff;
-        border-radius: 5px;
-    }
 }
 
 .amarelo {
